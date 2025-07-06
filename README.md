@@ -1,5 +1,5 @@
 Reto 9
-Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual. Al finalizar suba todo a un repo y subalo al canal reto_10 en slack.
+Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual. Al finalizar suba todo a un repo y subalo al canal reto_9 en slack.
 1. Desarrollar un algoritmo que calcule el promedio de un arreglo de reales.
 
        def calcular_promedio(arreglo):
