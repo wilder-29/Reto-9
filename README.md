@@ -33,4 +33,21 @@ Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa 
        resultado = mover_ceros_al_final(arreglo)
        print(f"Arreglo original: {arreglo}")
        print(f"Arreglo modificado: {resultado}")
-   
+
+4. Revisar que son los algoritmos de sorting, entender bubble-sort (enlace a implementación).
+Bubble Sort (ordenamiento de burbuja) es un algoritmo de ordenamiento simple pero ineficiente, que funciona intercambiando pares de elementos adyacentes si están en el orden incorrecto.
+Se realizan múltiples pasadas (ciclos) sobre el arreglo.
+En cada pasada:
+- Se compara cada par de elementos adyacentes.
+- Si el primero es mayor que el segundo, se intercambian.
+
+Después de cada pasada, el elemento más grande de los no ordenados "sube" (como una burbuja) hasta su posición correcta.
+El proceso se repite hasta que en una pasada no se realice ningún intercambio (lo que indica que la lista ya está ordenada).
+Ventajas
+    Fácil de entender e implementar.
+    No requiere memoria adicional (ordenamiento in-place).
+    Es estable (conserva el orden de elementos iguales).
+
+Desventajas
+    Su complejidad es O(n²) → muy lento para listas grandes.
+    Casi no se usa en aplicaciones reales; se usa sobre todo en la enseñanza.
